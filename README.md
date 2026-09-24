@@ -32,8 +32,5 @@ pip install -r requirements.txt
 python src/analyze.py
 ```
 
-## Interview explanation
-"I used a small public student dataset to practice the full analysis workflow. I cleaned and checked the data, calculated descriptive statistics, compared groups, examined correlations, and added one simple hypothesis test. I kept the methods modest so I could explain every decision."
-
 ## Limitations
 This is observational data from a specific population and period. Associations should not be treated as causal effects.
