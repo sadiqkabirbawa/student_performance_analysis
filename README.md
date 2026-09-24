@@ -23,8 +23,6 @@ https://archive.ics.uci.edu/dataset/320/student+performance
 4. Which numeric variables correlate most with final grade?
 5. Is there a statistically detectable difference between lower-study-time and higher-study-time groups?
 
-## Statistical test
-A Welch independent-samples t-test compares G3 for study-time categories 1–2 versus 3–4. The result is interpreted as an association, not proof of causation.
 
 ## Run
 ```bash
