@@ -1,1 +1,39 @@
-# student_performance_analysis
+# Student Performance Analysis
+
+A compact Python + statistics project showing a complete data-analysis workflow.
+
+## What it demonstrates
+- Data-quality checks
+- Descriptive statistics
+- Group comparisons
+- Correlation analysis
+- One simple hypothesis test
+- Clear visualizations
+- Evidence-based interpretation
+
+## Dataset
+UCI Student Performance:
+https://archive.ics.uci.edu/dataset/320/student+performance
+
+
+## Analysis questions
+1. What are the mean and median final grades?
+2. How are grades distributed?
+3. How does average grade vary by study time?
+4. Which numeric variables correlate most with final grade?
+5. Is there a statistically detectable difference between lower-study-time and higher-study-time groups?
+
+## Statistical test
+A Welch independent-samples t-test compares G3 for study-time categories 1–2 versus 3–4. The result is interpreted as an association, not proof of causation.
+
+## Run
+```bash
+pip install -r requirements.txt
+python src/analyze.py
+```
+
+## Interview explanation
+"I used a small public student dataset to practice the full analysis workflow. I cleaned and checked the data, calculated descriptive statistics, compared groups, examined correlations, and added one simple hypothesis test. I kept the methods modest so I could explain every decision."
+
+## Limitations
+This is observational data from a specific population and period. Associations should not be treated as causal effects.
